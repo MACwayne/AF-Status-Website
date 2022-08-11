@@ -1,8 +1,8 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : AF Status                                 # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 1491365716                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
@@ -20,14 +20,14 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Team Underground, LLC                                
+your_link                                 : https://teamunderground.com                     
+your_city                                 :                                 
+email_address                             : team@afstatus.com
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        : 
+twitter_username                          : teamundergroun2
+github_username                           : 
 youtube_username                          :
 
 
@@ -35,20 +35,20 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : iPad & iPhone Supported
+    description                           : AF Status is accessible on the go.
+    fontawesome_icon_name                 : fa-plane-departure
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+  - title                                 : AppleTV Support
+    description                           : Any TV can turn into a perminate status board, all you need to do is hook up an AppleTV.
     fontawesome_icon_name                 : mobile
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
+  - title                                 : Fully Customizable
+    description                           : Display board are fully customizable to meet mission needs.
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+  - title                                 : Automatic External Sources
+    description                           : External APIs can pull in data from any source. Examples include weather or notams.
     fontawesome_icon_name                 : sync
 
   - title                                 : Easy to Tweak
